@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicTacToeApp.MainPage">
+
+    <Grid Padding="10"
+          HorizontalOptions="Center"
+          VerticalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="Button0" ClassId="0" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button1" ClassId="1" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button2" ClassId="2" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button3" ClassId="3" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button4" ClassId="4" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button5" ClassId="5" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button6" ClassId="6" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button7" ClassId="7" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" FontSize="30"/>
+        <Button x:Name="Button8" ClassId="8" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" FontSize="30"/>
+    </Grid>
+</ContentPage>
