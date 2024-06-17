@@ -8,7 +8,7 @@
     Title="TicTacToeApp">
 
     <ShellContent
-        Title="Home"
+        Title="TicTacToe by Brainydaps"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
