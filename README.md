@@ -22,7 +22,7 @@ I bet you cannot win the logic coded into the computer's moves.
 ## Screenshots
 
 ![App Screenshot](https://github.com/Brainydaps/TicTacToeApp/assets/41041115/ec13dd96-c656-4b5a-b7d8-c99ab887242b)
-
+![Screenshot 2024-07-28 at 19 17 36](https://github.com/user-attachments/assets/28f76277-563f-4c9c-a742-97297f1aa06d)
 
 
 ## Installation
